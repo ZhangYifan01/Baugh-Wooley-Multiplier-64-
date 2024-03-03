@@ -1,0 +1,20 @@
+# vsim work.assignment4_tb 
+# Start time: 14:39:42 on Mar 03,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assignment4_tb(behavioral)
+# Loading work.assignment4(rtl)
+# Loading work.dff(behavior1)
+# Loading work.extendedfa(gate_level)
+# Loading work.fa(gate_level)
+# ** Warning: Design size of 275026 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position end  sim:/assignment4_tb/a32
+add wave -position end  sim:/assignment4_tb/x32
+add wave -position end  sim:/assignment4_tb/p64
+run
+run
+# End time: 14:42:46 on Mar 03,2024, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 1

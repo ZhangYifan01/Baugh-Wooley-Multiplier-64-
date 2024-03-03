@@ -1,0 +1,209 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/TheGiantSaltFish/VHDPlus/Projects/final2_64/Generated
+Eassignment4
+Z1 w1709473178
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\final2_64.vhd
+Z6 FC:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\final2_64.vhd
+l0
+L5
+Vz06KIg2[a8:o==IaKGK5f3
+!s100 Dd7>IC4HBhBYM``aMIkdj2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1709473179
+!i10b 1
+Z9 !s108 1709473179.000000
+Z10 !s90 -work|work|-check_synthesis|C:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\final2_64.vhd|
+Z11 !s107 C:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\final2_64.vhd|
+!i113 1
+Z12 o-work work -check_synthesis
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 11 assignment4 0 22 z06KIg2[a8:o==IaKGK5f3
+l57
+L14
+VkW>fP@T2MZm3HR5N[0;]R3
+!s100 _lKc7_mTVNFM0<TPAi5W02
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eassignment4_tb
+Z14 w1709473179
+R2
+R3
+R4
+R0
+Z15 8C:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\Generated\final2_64_Sim.vhd
+Z16 FC:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\Generated\final2_64_Sim.vhd
+l0
+L7
+V^WmAaY92UMnVA6e3Z1ZUC0
+!s100 aE4YjSUnINKRMXOF?PT^40
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -work|work|-check_synthesis|C:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\Generated\final2_64_Sim.vhd|
+Z18 !s107 C:\Users\TheGiantSaltFish\VHDPlus\Projects\final2_64\Generated\final2_64_Sim.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z19 DEx4 work 14 assignment4_tb 0 22 ^WmAaY92UMnVA6e3Z1ZUC0
+l30
+L10
+Z20 VIQFe9a4f^8Z0Jl6H<[PMb1
+Z21 !s100 UTWWQLEEMjgnI@_YJ0]=n0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Edff
+R1
+R3
+R4
+R0
+R5
+R6
+l0
+L324
+VKX@FfU:;zeeTM_Xoe=jm82
+!s100 Mg8RKOY]@REUPV_DQQhzW1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Abehavior1
+R3
+R4
+DEx4 work 3 dff 0 22 KX@FfU:;zeeTM_Xoe=jm82
+l330
+L329
+Vk3kJQjYWGkK6QZjhi6;Sg3
+!s100 8`3H3zIngGRj=]8X^H`W^2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eextendedfa
+R1
+R3
+R4
+R0
+R5
+R6
+l0
+L267
+VGEA@6Ib8<HbTzf[mYR3n73
+!s100 E2IIZ]o0hI@z[5I=iT0oU2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Agate_level
+R3
+R4
+DEx4 work 10 extendedfa 0 22 GEA@6Ib8<HbTzf[mYR3n73
+l282
+L278
+V^5<WcIHHGO8RkHi9?COOL2
+!s100 F0AT6B99F`jO050BJ85jW1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efa
+R1
+R3
+R4
+R0
+R5
+R6
+l0
+L299
+V>_VK<==Jj18agb:;21Kz_3
+!s100 7F<f_H?iWWEX7NBfU8igF1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Agate_level
+R3
+R4
+DEx4 work 2 fa 0 22 >_VK<==Jj18agb:;21Kz_3
+l311
+L308
+VBC6R1hTWR5OXccJmPCDjD2
+!s100 3U7lo=XeVkS`P6V:H`8gB0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13

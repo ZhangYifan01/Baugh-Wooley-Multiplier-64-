@@ -1,0 +1,9 @@
+﻿<Project>
+  <ItemGroup>
+    <File Include="final2_64.vhd" />
+    <File Include="final2_64_Sim.ghdp" />
+  </ItemGroup>
+  <PropertyGroup>
+    <HardwareStartPath>final2_64.vhd</HardwareStartPath>
+  </PropertyGroup>
+</Project>

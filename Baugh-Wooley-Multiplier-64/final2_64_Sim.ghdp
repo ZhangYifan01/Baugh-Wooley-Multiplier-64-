@@ -1,0 +1,71 @@
+Component assignment4_tb()
+{
+    SIGNAL finished : STD_LOGIC:= '0';
+    CONSTANT period_time : TIME := 83333 ps;
+
+    Process Sim_finished()
+    {
+        wait for 1000 us;
+        finished <= '1';
+        wait;
+    }
+
+    NewComponent assignment4
+    (
+        CLK => CLK,
+        a32 => a32,
+        x32 => x32,
+        p => p,
+        p64 => p64,
+    );
+
+    SIGNAL CLK : std_logic ;
+    SIGNAL a32 : STD_LOGIC_VECTOR (31 downto 0);
+    SIGNAL x32 : STD_LOGIC_VECTOR (31 downto 0);
+    SIGNAL p : STD_LOGIC_VECTOR (127 downto 0);
+    SIGNAL p64 : STD_LOGIC_VECTOR (63 downto 0);
+
+
+    Process Sim_CLK()
+    {
+        CLK <= '0';
+        While(finished /= '1')
+        {
+            wait for 2 us;
+            CLK <= not CLK;
+        }
+        wait;
+    }
+
+    Process Sim_a32()
+    {
+        While(finished /= '1')
+        {
+            a32 <= x"3d1b58ba";
+            x32 <= x"af812855";
+            wait for 400.0001us;
+            
+            a32 <= x"3d1b58ba";
+            x32 <= x"3d1b58ba";
+            wait for 40.0001us;
+            
+            a32 <= x"af812855";
+            x32 <= x"3d1b58ba";
+            wait for 4.0001us;
+            
+            a32 <= x"af812855";
+            x32 <= x"af812855";
+            wait;
+        }
+        wait;
+    }
+
+    Process Sim_x32()
+    {
+        While(finished /= '1')
+        {
+            wait;
+        }
+        wait;
+    }
+}

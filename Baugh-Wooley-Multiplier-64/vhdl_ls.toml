@@ -1,0 +1,10 @@
+# auto-generated
+[Libraries]
+work.files = [
+	'final2_64.vhd'
+]
+[libraries.work]
+files = [
+	'final2_64.vhd'
+]
+# auto-generated-end
